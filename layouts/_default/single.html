@@ -72,6 +72,13 @@
           {{ template "_internal/disqus.html" . }}
         </div>
         {{ end }}
+        <!-- commento comments -->
+        {{ if .Site.CommentoShortname  }}
+        <div class="border rounded p-4">
+          <script defer src="https://cdn.commento.io/js/commento.js"></script>
+          <div id="commento"></div>
+        </div>
+        {{ end }}
       </div>
       <!-- sidebar widgets -->
       <aside class="col-lg-4">
