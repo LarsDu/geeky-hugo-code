@@ -15,6 +15,10 @@ disqusShortname = "themefisher-template" # get your shortname form here : https:
 # disable language
 disableLanguages = ["fr"] # example: ["fr"] for disable french language
 
+######################### Comments #########################
+[params]
+useCommento = false
+
 ############################# Modules ##############################
 [module]
 [module.hugoVersion]
